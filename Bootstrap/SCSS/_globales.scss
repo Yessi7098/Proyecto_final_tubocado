@@ -1,0 +1,9 @@
+/* Uso de Mixin*/
+@mixin reset-pm {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    @include reset-pm;
+}

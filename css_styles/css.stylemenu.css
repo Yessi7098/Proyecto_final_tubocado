@@ -1,0 +1,124 @@
+/* Body */
+.encabezado {
+    background: radial-gradient(orange, brown);
+    color: white;
+    text-align: center;
+}
+
+/* Nav */
+.Titulo a {
+    color:rgb(255, 187, 0);
+    font-size: 80px;
+    text-decoration: none;
+}
+
+/* Main */
+ul {
+    list-style: none;
+}
+
+.image-one{
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes agrandar {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(0.6);
+    }
+}
+
+.image-two {
+    animation-duration: 6s;
+    border-radius: 20px;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0,5;
+    }
+ }
+ 
+ .image-three {
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}  
+
+.image-four {
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes agrandar {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(0.6);
+    }
+}
+
+.image-five {
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes movimiento {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}  

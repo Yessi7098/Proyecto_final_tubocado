@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "primer proyecto tu bocado",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include -path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \" npm run build-css\"",  
+    "test": "echo \"Error: no test specified\" && exit 1"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yessi7098/Primer_proyecto_tu_bocado.git"
+  },
+  "author": "Yessica Jordán Ordoñez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yessi7098/Primer_proyecto_tu_bocado/issues"
+  },
+  "homepage": "https://github.com/Yessi7098/Primer_proyecto_tu_bocado#readme"
+}

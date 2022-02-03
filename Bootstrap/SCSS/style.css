@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Body página contacto*/
+body {
+  background-image: url("../imagenes/imagenbocado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  color: white;
+}
+
+/* Header página contacto*/
+h2 a {
+  color: white;
+}

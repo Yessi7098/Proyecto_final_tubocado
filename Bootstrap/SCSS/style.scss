@@ -1,0 +1,79 @@
+/* Body página contacto*/
+body {
+    background-image: url("../imagenes/imagenbocado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    color: white;
+}
+
+/* Header página contacto*/
+h2 a {
+    color:white
+}
+
+/* @Mixin*/
+@mixin warning-button($background,$weight){
+    height: 40px;
+    min-width: 100px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color:gold;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    text-decoration: none;
+    &:visited{
+        color:white;
+    }
+    &:hover{
+        color:rgb(16, 63, 16);
+    }
+}
+
+.btn{
+    @include warning-button(gold,600)
+}
+
+/* @Extends*/
+%btn {
+    height: 40px;
+    min-width: 100px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color:gold;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    text-decoration: none;
+    &:visited{
+        color:white;
+    }
+    &:hover{
+        color:rgb(16, 63, 16);
+    } 
+}
+
+.btn{
+    @extend %btn;
+}
+
+/* @Map*/
+$color: yellow;
+$color2: blue;
+
+$map: (
+    primary: yellow
+    secundary: red
+);
+
+h3 {
+  color: $color2;  
+}

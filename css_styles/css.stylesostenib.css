@@ -1,0 +1,32 @@
+/* Body */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url("../Bootstrap/imagenes/mundosostenible_opt.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+h2 a {
+    color: rgb(122, 248, 4);
+    text-decoration: none;
+    font-size: 80px;
+}
+
+/* Main */
+.Subtitulo a {
+    text-decoration: none;
+    color: rgb(20, 77, 20);
+}
+
+.text {
+    text-align: justify;
+}
+
+
+    
+
+

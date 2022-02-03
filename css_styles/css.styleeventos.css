@@ -1,0 +1,42 @@
+/* Body */
+body {
+    min-height: 100vh;
+    background:radial-gradient(rgb(211, 55, 138), black)
+}
+
+/* Header */
+h3 a {
+    color: rgb(248, 149, 223);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+/* Main */
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center; 
+}
+
+.carousel-item img {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+}
+
+.text {
+    font-size: 2.6rem;
+    color: rgb(247, 108, 154);
+    text-align: center;
+    font-family: cursive;
+}

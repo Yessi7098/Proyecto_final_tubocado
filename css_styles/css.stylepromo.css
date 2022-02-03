@@ -1,0 +1,94 @@
+/* Body */
+.encabezado {
+    background: linear-gradient(to left, black, rgb(212, 10, 44))
+}
+
+/* Nav */
+.Titulo a {
+    color: rgb(247, 184, 162);
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+}
+
+/* Main*/
+.table {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-color: darksalmon;
+    border-width: 15px 25px 15px 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.image1 {
+        align-items: center;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        animation-name: agrandar;
+        animation-iteration-count: infinite;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+    
+    @keyframes agrandar {
+        from{
+            transform: scale(0.1);
+        }
+        to{
+            transform: scale(1.0);
+        }
+    }
+    .image2 {
+        align-items: center;
+        animation-duration: 10s;
+        border-radius: 20px;
+       animation-name: aparecer;
+       animation-iteration-count: infinite; 
+    }
+
+    @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0,1;
+        }
+     }
+
+     .image3 {
+        align-items:center;
+        animation-duration: 6.5s;
+        border-radius: 20px;
+       animation-name: aparecer;
+       animation-iteration-count: infinite;
+     }
+
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0,1;
+        }
+     }
+
+     .image4 {
+         animation: slide-in 1s ease infinite;
+     }
+
+     @keyframes slide-in {
+         from {
+             transform: translateX(30vw);
+             opacity: 0.5;
+         }
+         to {
+             transform: translateX(0);
+         }
+     }
+     
